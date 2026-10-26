@@ -1,0 +1,15 @@
+# فقط برای توسعه: docker compose up -d db
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: waynet
+      POSTGRES_USER: waynet
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-change-me}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - waynet_pgdata:/var/lib/postgresql/data
+volumes:
+  waynet_pgdata:

@@ -1,0 +1,31 @@
+# نمونهٔ تنظیم nginx برای production (مسیرها و دامنه را عوض کنید).
+# Django (با gunicorn روی 127.0.0.1:8000) فقط مجوز را بررسی می‌کند؛ خود ویدیو را nginx می‌فرستد.
+server {
+    listen 80;
+    server_name example.ir;
+    client_max_body_size 2g;               # هم‌اندازهٔ MAX_VIDEO_BYTES
+
+    location /api/ {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_request_buffering off;       # آپلود ویدیوی بزرگ
+    }
+
+    # فقط با X-Accel-Redirect از Django قابل دسترسی است؛ از بیرون باز نمی‌شود.
+    location /_protected_video/ {
+        internal;
+        alias /srv/waynet/backend/media/;  # همان PRIVATE_MEDIA_ROOT
+        add_header Cache-Control "private, no-store";
+    }
+
+    location /uploads/ {                   # تصاویر عمومی
+        alias /srv/waynet/backend/uploads/;
+    }
+
+    location / {                           # فرانت ساخته‌شده (frontend/dist)
+        root /srv/waynet/frontend/dist;
+        try_files $uri /index.html;
+    }
+}

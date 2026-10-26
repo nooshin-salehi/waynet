@@ -1,0 +1,3328 @@
+{
+  "categories": [
+    {
+      "id": "cisco",
+      "title": "دوره سیسکو",
+      "short": "سیسکو",
+      "type": "cisco",
+      "desc": "مسیریابی، سوییچینگ و همکاری تحت شبکه با تجهیزات و استانداردهای سیسکو.",
+      "icon": "CCNA"
+    },
+    {
+      "id": "mikrotik",
+      "title": "دوره میکروتیک",
+      "short": "میکروتیک",
+      "type": "mikrotik",
+      "desc": "پیکربندی روتر، فایروال، مدیریت پهنای‌باند و شبکه‌های کوچک تا سازمانی با میکروتیک.",
+      "icon": "RB"
+    },
+    {
+      "id": "aplus",
+      "title": "دوره A+",
+      "short": "A+",
+      "type": "aplus",
+      "desc": "مبانی سخت‌افزار، سیستم‌عامل و عیب‌یابی رایانه؛ نقطه شروع مسیر IT.",
+      "icon": "A+"
+    },
+    {
+      "id": "comptia",
+      "title": "دوره CompTIA Network & Security",
+      "short": "CompTIA",
+      "type": "comptia",
+      "desc": "استانداردهای بین‌المللی شبکه و امنیت برای ورود حرفه‌ای به بازار کار IT.",
+      "icon": "N+"
+    },
+    {
+      "id": "virtualization",
+      "title": "دوره مجازی‌سازی",
+      "short": "مجازی‌سازی",
+      "type": "virtualization",
+      "desc": "مجازی‌سازی سرور، شبکه و دسکتاپ با VMware، Hyper-V و ابزارهای مرتبط.",
+      "icon": "VM"
+    },
+    {
+      "id": "security",
+      "title": "دوره امنیت شبکه",
+      "short": "امنیت شبکه",
+      "type": "security",
+      "desc": "دفاع سایبری، فایروال، تست نفوذ و تحلیل رخدادهای امنیتی (SOC).",
+      "icon": "SEC"
+    },
+    {
+      "id": "infrastructure",
+      "title": "سایر حوزه‌های مرتبط",
+      "short": "زیرساخت",
+      "type": "server",
+      "desc": "سرور، لینوکس و سایر مهارت‌های زیرساختی تکمیلی مسیر شبکه و امنیت.",
+      "icon": "SRV"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ccna-rs",
+      "categoryId": "cisco",
+      "title": "دوره تخصصی CCNA Routing & Switching",
+      "category": "سیسکو",
+      "teacher": "مهندس علی رستمی",
+      "duration": "۴۵ ساعت",
+      "capacity": "۱۲ نفر",
+      "price": "۴,۸۰۰,۰۰۰ تومان",
+      "desc": "مسیر کامل مسیریابی و سوییچینگ سیسکو، از مفاهیم پایه تا پیکربندی شبکه‌های سازمانی چندلایه، همراه با آزمایشگاه عملی.",
+      "type": "cisco",
+      "level": "مقدماتی تا متوسط",
+      "audience": "علاقه‌مندان به شبکه که می‌خواهند مسیر شغلی کارشناس شبکه را شروع کنند.",
+      "prerequisites": "آشنایی مقدماتی با مفاهیم کامپیوتر و شبکه.",
+      "goals": [
+        "درک عمیق مدل OSI و TCP/IP",
+        "پیکربندی روتر و سوییچ سیسکو",
+        "طراحی VLAN و مسیریابی بین شبکه‌ای"
+      ],
+      "skills": [
+        "Routing & Switching",
+        "VLAN/Trunking",
+        "ACL",
+        "عیب‌یابی شبکه"
+      ],
+      "features": [
+        "آزمایشگاه عملی با تجهیزات واقعی",
+        "پشتیبانی گروه تلگرام",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-29",
+          "index": 29,
+          "title": "جلسه 29: پروژه پایانی: تعریف و طراحی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-30",
+          "index": 30,
+          "title": "جلسه 30: پروژه پایانی: ارائه و جمع‌بندی دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "cisco-collaboration",
+      "categoryId": "cisco",
+      "title": "دوره Cisco Collaboration",
+      "category": "سیسکو",
+      "teacher": "مهندس علی رستمی",
+      "duration": "۳۲ ساعت",
+      "capacity": "۱۰ نفر",
+      "price": "۴,۲۰۰,۰۰۰ تومان",
+      "desc": "راه‌اندازی و مدیریت زیرساخت ارتباطات یکپارچه سیسکو شامل VoIP و کنفرانس تصویری سازمانی.",
+      "type": "cisco",
+      "level": "متوسط",
+      "audience": "کارشناسان شبکه که می‌خواهند وارد حوزه ارتباطات یکپارچه شوند.",
+      "prerequisites": "آشنایی با مفاهیم پایه شبکه و ترجیحاً CCNA.",
+      "goals": [
+        "راه‌اندازی Call Manager",
+        "پیکربندی VoIP سازمانی",
+        "مدیریت کنفرانس تصویری"
+      ],
+      "skills": [
+        "Cisco CallManager",
+        "VoIP",
+        "QoS"
+      ],
+      "features": [
+        "پروژه عملی سازمانی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "mtcna",
+      "categoryId": "mikrotik",
+      "title": "دوره میکروتیک (MTCNA)",
+      "category": "میکروتیک",
+      "teacher": "مهندس رضا احمدی",
+      "duration": "۳۰ ساعت",
+      "capacity": "۱۵ نفر",
+      "price": "۳,۲۰۰,۰۰۰ تومان",
+      "desc": "پیکربندی روترهای میکروتیک، مدیریت پهنای باند، فایروال و فیلترینگ برای شبکه‌های کوچک تا متوسط.",
+      "type": "mikrotik",
+      "level": "مقدماتی",
+      "audience": "افرادی که می‌خواهند شبکه‌های کوچک و متوسط را با میکروتیک مدیریت کنند.",
+      "prerequisites": "آشنایی مقدماتی با شبکه.",
+      "goals": [
+        "پیکربندی RouterOS",
+        "مدیریت پهنای باند با Queue",
+        "فایروال و NAT"
+      ],
+      "skills": [
+        "RouterOS",
+        "Bandwidth Management",
+        "Firewall"
+      ],
+      "features": [
+        "آزمایشگاه با RouterBoard واقعی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "mtcre",
+      "categoryId": "mikrotik",
+      "title": "دوره پیشرفته میکروتیک (MTCRE)",
+      "category": "میکروتیک",
+      "teacher": "مهندس رضا احمدی",
+      "duration": "۲۸ ساعت",
+      "capacity": "۱۲ نفر",
+      "price": "۳,۶۰۰,۰۰۰ تومان",
+      "desc": "مسیریابی پیشرفته، VPN و طراحی شبکه‌های چندشعبه‌ای با تجهیزات میکروتیک.",
+      "type": "mikrotik",
+      "level": "پیشرفته",
+      "audience": "دانش‌پذیرانی که دوره MTCNA را گذرانده‌اند.",
+      "prerequisites": "گذراندن دوره MTCNA یا سطح معادل.",
+      "goals": [
+        "مسیریابی پویا (OSPF/BGP)",
+        "راه‌اندازی VPN بین شعب",
+        "طراحی شبکه چندسایتی"
+      ],
+      "skills": [
+        "OSPF",
+        "VPN",
+        "Routing پیشرفته"
+      ],
+      "features": [
+        "سناریوی چندشعبه‌ای واقعی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "aplus",
+      "categoryId": "aplus",
+      "title": "دوره A+ (CompTIA A+)",
+      "category": "A+",
+      "teacher": "مهندس پیمان یزدی",
+      "duration": "۳۶ ساعت",
+      "capacity": "۱۶ نفر",
+      "price": "۲,۹۰۰,۰۰۰ تومان",
+      "desc": "مبانی سخت‌افزار، سیستم‌عامل، شبکه و عیب‌یابی رایانه؛ اولین قدم استاندارد برای ورود به دنیای IT.",
+      "type": "aplus",
+      "level": "مقدماتی",
+      "audience": "تازه‌واردان به حوزه IT و علاقه‌مندان به شروع مسیر شبکه و امنیت.",
+      "prerequisites": "نیازی به پیش‌نیاز خاصی نیست.",
+      "goals": [
+        "شناخت سخت‌افزار رایانه",
+        "نصب و پیکربندی سیستم‌عامل",
+        "عیب‌یابی مشکلات سخت‌افزاری و نرم‌افزاری"
+      ],
+      "skills": [
+        "Hardware",
+        "Troubleshooting",
+        "مبانی شبکه"
+      ],
+      "features": [
+        "کارگاه عملی سخت‌افزار",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "comptia-netsec",
+      "categoryId": "comptia",
+      "title": "دوره CompTIA Network+ & Security+",
+      "category": "CompTIA",
+      "teacher": "مهندس شیوا کریمی",
+      "duration": "۴۲ ساعت",
+      "capacity": "۱۲ نفر",
+      "price": "۴,۹۰۰,۰۰۰ تومان",
+      "desc": "استانداردهای بین‌المللی شبکه و امنیت اطلاعات؛ پایه‌ای محکم برای گواهینامه‌های بین‌المللی CompTIA.",
+      "type": "comptia",
+      "level": "مقدماتی تا متوسط",
+      "audience": "افرادی که قصد اخذ گواهینامه بین‌المللی CompTIA را دارند.",
+      "prerequisites": "آشنایی مقدماتی با مفاهیم شبکه (ترجیحاً A+).",
+      "goals": [
+        "درک مفاهیم شبکه مطابق استاندارد CompTIA",
+        "اصول امنیت اطلاعات",
+        "آماده‌سازی برای آزمون بین‌المللی"
+      ],
+      "skills": [
+        "Networking",
+        "Security Fundamentals",
+        "Risk Management"
+      ],
+      "features": [
+        "نمونه‌سوالات آزمون بین‌المللی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-29",
+          "index": 29,
+          "title": "جلسه 29: پروژه پایانی: تعریف و طراحی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-30",
+          "index": 30,
+          "title": "جلسه 30: پروژه پایانی: ارائه و جمع‌بندی دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "virtualization",
+      "categoryId": "virtualization",
+      "title": "دوره مجازی‌سازی (VMware & Hyper-V)",
+      "category": "مجازی‌سازی",
+      "teacher": "مهندس سینا نوری",
+      "duration": "۳۸ ساعت",
+      "capacity": "۱۰ نفر",
+      "price": "۴,۴۰۰,۰۰۰ تومان",
+      "desc": "مجازی‌سازی سرور و شبکه با VMware vSphere و Hyper-V برای زیرساخت‌های سازمانی.",
+      "type": "virtualization",
+      "level": "متوسط",
+      "audience": "کارشناسان سرور که می‌خواهند وارد حوزه مجازی‌سازی شوند.",
+      "prerequisites": "آشنایی با مدیریت سرور ویندوز یا لینوکس.",
+      "goals": [
+        "راه‌اندازی و مدیریت VMware vSphere",
+        "مجازی‌سازی با Hyper-V",
+        "مدیریت منابع و Snapshot"
+      ],
+      "skills": [
+        "VMware vSphere",
+        "Hyper-V",
+        "Resource Management"
+      ],
+      "features": [
+        "آزمایشگاه مجازی‌سازی سازمانی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "categoryId": "security",
+      "title": "دوره امنیت شبکه",
+      "category": "امنیت",
+      "teacher": "مهندس شیوا کریمی",
+      "duration": "۶۰ ساعت",
+      "capacity": "۱۰ نفر",
+      "price": "۶,۸۰۰,۰۰۰ تومان",
+      "desc": "اصول دفاع سایبری، تحلیل ترافیک، مقابله با تهدیدات و پیاده‌سازی سیاست‌های امنیتی سازمانی.",
+      "type": "security",
+      "level": "متوسط تا پیشرفته",
+      "audience": "کارشناسان شبکه که می‌خواهند وارد حوزه امنیت شوند.",
+      "prerequisites": "آشنایی با مفاهیم شبکه (ترجیحاً CCNA یا معادل).",
+      "goals": [
+        "تحلیل ترافیک شبکه",
+        "شناسایی و مقابله با تهدیدات",
+        "پیاده‌سازی سیاست‌های امنیتی"
+      ],
+      "skills": [
+        "Network Defense",
+        "Threat Analysis",
+        "Security Policy"
+      ],
+      "features": [
+        "سناریوهای واقعی حمله و دفاع",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-29",
+          "index": 29,
+          "title": "جلسه 29: پروژه پایانی: تعریف و طراحی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-30",
+          "index": 30,
+          "title": "جلسه 30: پروژه پایانی: ارائه و جمع‌بندی دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-31",
+          "index": 31,
+          "title": "جلسه 31: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-32",
+          "index": 32,
+          "title": "جلسه 32: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "firewall",
+      "categoryId": "security",
+      "title": "دوره تخصصی فایروال",
+      "category": "فایروال",
+      "teacher": "مهندس بابک صالحی",
+      "duration": "۳۵ ساعت",
+      "capacity": "۱۲ نفر",
+      "price": "۴,۵۰۰,۰۰۰ تومان",
+      "desc": "پیکربندی فایروال‌های نسل جدید، قوانین دسترسی، NAT و VPN برای امن‌سازی مرز شبکه سازمان.",
+      "type": "firewall",
+      "level": "متوسط",
+      "audience": "کارشناسان شبکه و امنیت مسئول مرز شبکه سازمان.",
+      "prerequisites": "آشنایی با مفاهیم شبکه و TCP/IP.",
+      "goals": [
+        "پیکربندی فایروال نسل جدید (NGFW)",
+        "مدیریت قوانین دسترسی و NAT",
+        "راه‌اندازی VPN سایت‌به‌سایت"
+      ],
+      "skills": [
+        "NGFW",
+        "NAT/PAT",
+        "Site-to-Site VPN"
+      ],
+      "features": [
+        "آزمایشگاه با فایروال واقعی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "pentest",
+      "categoryId": "security",
+      "title": "مبانی تست نفوذ",
+      "category": "تست نفوذ",
+      "teacher": "مهندس آرش تهرانی",
+      "duration": "۵۵ ساعت",
+      "capacity": "۸ نفر",
+      "price": "۷,۲۰۰,۰۰۰ تومان",
+      "desc": "شناسایی آسیب‌پذیری از دید مهاجم، ابزارهای تست نفوذ و تهیه گزارش فنی استاندارد.",
+      "type": "pentest",
+      "level": "پیشرفته",
+      "audience": "علاقه‌مندان به حوزه تست نفوذ و هک اخلاقی.",
+      "prerequisites": "آشنایی با شبکه، لینوکس و مبانی امنیت.",
+      "goals": [
+        "شناسایی و بهره‌برداری از آسیب‌پذیری",
+        "کار با ابزارهای استاندارد تست نفوذ",
+        "تهیه گزارش فنی حرفه‌ای"
+      ],
+      "skills": [
+        "Ethical Hacking",
+        "Vulnerability Assessment",
+        "Reporting"
+      ],
+      "features": [
+        "محیط آزمایشگاهی ایزوله",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-29",
+          "index": 29,
+          "title": "جلسه 29: پروژه پایانی: تعریف و طراحی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-30",
+          "index": 30,
+          "title": "جلسه 30: پروژه پایانی: ارائه و جمع‌بندی دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "soc",
+      "categoryId": "security",
+      "title": "دوره تحلیلگر SOC",
+      "category": "SOC",
+      "teacher": "مهندس مریم غفاری",
+      "duration": "۴۵ ساعت",
+      "capacity": "۱۰ نفر",
+      "price": "۵,۹۰۰,۰۰۰ تومان",
+      "desc": "رصد و تحلیل رخدادهای امنیتی، کار با SIEM و واکنش اولیه به حوادث سایبری.",
+      "type": "soc",
+      "level": "متوسط تا پیشرفته",
+      "audience": "کارشناسانی که می‌خواهند در مرکز عملیات امنیت (SOC) فعالیت کنند.",
+      "prerequisites": "آشنایی با مفاهیم شبکه و امنیت پایه.",
+      "goals": [
+        "کار با ابزارهای SIEM",
+        "تحلیل و اولویت‌بندی رخدادها",
+        "واکنش اولیه به حادثه"
+      ],
+      "skills": [
+        "SIEM",
+        "Incident Response",
+        "Log Analysis"
+      ],
+      "features": [
+        "سناریوهای واقعی رخداد امنیتی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "categoryId": "infrastructure",
+      "title": "مدیریت سرور ویندوز و لینوکس",
+      "category": "سرور",
+      "teacher": "مهندس سینا نوری",
+      "duration": "۵۰ ساعت",
+      "capacity": "۱۰ نفر",
+      "price": "۵,۵۰۰,۰۰۰ تومان",
+      "desc": "نصب، پیکربندی و نگهداری سرورهای ویندوز و لینوکس، مجازی‌سازی و مدیریت سرویس‌های زیرساختی.",
+      "type": "server",
+      "level": "متوسط",
+      "audience": "علاقه‌مندان به مدیریت زیرساخت سرور سازمانی.",
+      "prerequisites": "آشنایی مقدماتی با سیستم‌عامل و شبکه.",
+      "goals": [
+        "نصب و پیکربندی سرورهای ویندوز/لینوکس",
+        "مدیریت سرویس‌های زیرساختی",
+        "مقدمات مجازی‌سازی سرور"
+      ],
+      "skills": [
+        "Windows Server",
+        "Linux Server",
+        "Infrastructure Services"
+      ],
+      "features": [
+        "آزمایشگاه سرور اختصاصی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-27",
+          "index": 27,
+          "title": "جلسه 27: جمع‌بندی سرفصل‌های کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-28",
+          "index": 28,
+          "title": "جلسه 28: پرسش و پاسخ تخصصی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-29",
+          "index": 29,
+          "title": "جلسه 29: پروژه پایانی: تعریف و طراحی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-30",
+          "index": 30,
+          "title": "جلسه 30: پروژه پایانی: ارائه و جمع‌بندی دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "categoryId": "infrastructure",
+      "title": "دوره جامع لینوکس",
+      "category": "لینوکس",
+      "teacher": "مهندس پیمان یزدی",
+      "duration": "۴۰ ساعت",
+      "capacity": "۱۴ نفر",
+      "price": "۳,۹۰۰,۰۰۰ تومان",
+      "desc": "کار با خط فرمان، مدیریت کاربران و سرویس‌ها، شبکه در لینوکس و آماده‌سازی برای مسیر امنیت و DevOps.",
+      "type": "linux",
+      "level": "مقدماتی تا متوسط",
+      "audience": "علاقه‌مندان به لینوکس، امنیت و DevOps.",
+      "prerequisites": "آشنایی مقدماتی با کامپیوتر.",
+      "goals": [
+        "تسلط بر خط فرمان لینوکس",
+        "مدیریت کاربران و سرویس‌ها",
+        "مبانی شبکه در لینوکس"
+      ],
+      "skills": [
+        "Linux CLI",
+        "Shell Scripting",
+        "Service Management"
+      ],
+      "features": [
+        "آزمایشگاه ابری اختصاصی",
+        "مدرک پایان دوره"
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "index": 1,
+          "title": "جلسه 01: مقدمه و آشنایی با مسیر دوره",
+          "duration": "۴۵ دقیقه",
+          "locked": false
+        },
+        {
+          "id": "session-02",
+          "index": 2,
+          "title": "جلسه 02: مفاهیم پایه و اصطلاحات کلیدی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-03",
+          "index": 3,
+          "title": "جلسه 03: معماری و اجزای اصلی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-04",
+          "index": 4,
+          "title": "جلسه 04: نصب و راه‌اندازی محیط آزمایشگاهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-05",
+          "index": 5,
+          "title": "جلسه 05: پیکربندی اولیه",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-06",
+          "index": 6,
+          "title": "جلسه 06: مدیریت کاربران و دسترسی‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-07",
+          "index": 7,
+          "title": "جلسه 07: مانیتورینگ و لاگ‌گیری",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-08",
+          "index": 8,
+          "title": "جلسه 08: عیب‌یابی مشکلات رایج",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-09",
+          "index": 9,
+          "title": "جلسه 09: بهینه‌سازی عملکرد",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-10",
+          "index": 10,
+          "title": "جلسه 10: سناریوی عملی شماره ۱",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-11",
+          "index": 11,
+          "title": "جلسه 11: مفاهیم پیشرفته بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-12",
+          "index": 12,
+          "title": "جلسه 12: مفاهیم پیشرفته بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-13",
+          "index": 13,
+          "title": "جلسه 13: یکپارچه‌سازی با سایر سرویس‌ها",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-14",
+          "index": 14,
+          "title": "جلسه 14: امنیت و سخت‌سازی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-15",
+          "index": 15,
+          "title": "جلسه 15: پشتیبان‌گیری و بازیابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-16",
+          "index": 16,
+          "title": "جلسه 16: مقیاس‌پذیری و طراحی سازمانی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-17",
+          "index": 17,
+          "title": "جلسه 17: بررسی خطاهای متداول و رفع اشکال",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-18",
+          "index": 18,
+          "title": "جلسه 18: ابزارهای تخصصی مکمل",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-19",
+          "index": 19,
+          "title": "جلسه 19: سناریوی عملی شماره ۲",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-20",
+          "index": 20,
+          "title": "جلسه 20: مرور استانداردهای صنعتی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-21",
+          "index": 21,
+          "title": "جلسه 21: آماده‌سازی برای گواهینامه بخش اول",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-22",
+          "index": 22,
+          "title": "جلسه 22: آماده‌سازی برای گواهینامه بخش دوم",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-23",
+          "index": 23,
+          "title": "جلسه 23: کارگاه عملی گروهی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-24",
+          "index": 24,
+          "title": "جلسه 24: مطالعه موردی واقعی از صنعت",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-25",
+          "index": 25,
+          "title": "جلسه 25: مستندسازی فنی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        },
+        {
+          "id": "session-26",
+          "index": 26,
+          "title": "جلسه 26: نکات مصاحبه شغلی و کاریابی",
+          "duration": "۴۵ دقیقه",
+          "locked": true
+        }
+      ]
+    }
+  ],
+  "careers": [
+    {
+      "id": "help-desk",
+      "title": "Help Desk",
+      "summary": "نقطه شروع ورود به دنیای IT و پشتیبانی فنی",
+      "description": "در این مسیر با مبانی سخت‌افزار، سیستم‌عامل، عیب‌یابی و مفاهیم پایه شبکه آشنا می‌شوید و برای شروع کار در پشتیبانی فنی آماده می‌شوید.",
+      "courseIds": [
+        "aplus",
+        "comptia-netsec"
+      ]
+    },
+    {
+      "id": "network-admin",
+      "title": "مدیر شبکه",
+      "summary": "طراحی، پیکربندی و نگهداری زیرساخت شبکه",
+      "description": "این مسیر روی طراحی و پیاده‌سازی شبکه، Routing و Switching، تجهیزات Cisco و MikroTik و مدیریت زیرساخت‌های شبکه تمرکز دارد.",
+      "courseIds": [
+        "ccna-rs",
+        "mtcna",
+        "mtcre",
+        "comptia-netsec"
+      ]
+    },
+    {
+      "id": "virtualization",
+      "title": "کارشناس مجازی‌سازی",
+      "summary": "مدیریت سرورهای مجازی و زیرساخت ابری",
+      "description": "در این مسیر با مفاهیم مجازی‌سازی و مدیریت زیرساخت‌های مجازی بر پایه فناوری‌هایی مانند VMware و Hyper-V آشنا می‌شوید.",
+      "courseIds": [
+        "virtualization",
+        "server",
+        "linux"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "title": "کارشناس مانیتورینگ",
+      "summary": "پایش لحظه‌ای سلامت سرویس‌ها و زیرساخت",
+      "description": "این مسیر بر شناخت زیرساخت، سرویس‌ها، سرورها و مفاهیم لازم برای پایش و عیب‌یابی مداوم محیط‌های IT تمرکز دارد.",
+      "courseIds": [
+        "server",
+        "linux",
+        "comptia-netsec"
+      ]
+    },
+    {
+      "id": "datacenter",
+      "title": "کارشناس دیتاسنتر",
+      "summary": "مدیریت و عملیات مراکز داده",
+      "description": "مسیر دیتاسنتر ترکیبی از شبکه، سرور، سیستم‌عامل و مجازی‌سازی است و برای فعالیت در محیط‌های زیرساختی سازمانی طراحی شده است.",
+      "courseIds": [
+        "ccna-rs",
+        "server",
+        "linux",
+        "virtualization"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "کارشناس امنیت",
+      "summary": "شناسایی و مقابله با تهدیدات سایبری",
+      "description": "در این مسیر مبانی امنیت شبکه، فایروال، تحلیل رخداد و تست نفوذ را به‌صورت مرحله‌ای دنبال می‌کنید.",
+      "courseIds": [
+        "security",
+        "firewall",
+        "soc",
+        "pentest"
+      ]
+    },
+    {
+      "id": "senior-network",
+      "title": "کارشناس ارشد شبکه",
+      "summary": "معماری و طراحی سطح بالای شبکه‌های سازمانی",
+      "description": "این مسیر برای توسعه مهارت‌های شبکه در سطح پیشرفته و طراحی زیرساخت‌های چندبخشی و سازمانی است.",
+      "courseIds": [
+        "ccna-rs",
+        "mtcre",
+        "comptia-netsec",
+        "virtualization"
+      ]
+    },
+    {
+      "id": "noc",
+      "title": "کارشناس NOC",
+      "summary": "مدیریت و رفع اختلال مرکز عملیات شبکه",
+      "description": "این مسیر بر مفاهیم شبکه، Routing و Switching، پایش و عیب‌یابی زیرساخت برای فعالیت در مراکز عملیات شبکه تمرکز دارد.",
+      "courseIds": [
+        "ccna-rs",
+        "mtcna",
+        "comptia-netsec"
+      ]
+    },
+    {
+      "id": "soc",
+      "title": "کارشناس SOC",
+      "summary": "رصد و تحلیل رخدادهای امنیتی",
+      "description": "در این مسیر با مبانی امنیت، تحلیل رخدادها و فرآیندهای دفاعی مورد استفاده در مرکز عملیات امنیت آشنا می‌شوید.",
+      "courseIds": [
+        "security",
+        "soc",
+        "comptia-netsec"
+      ]
+    },
+    {
+      "id": "firewall",
+      "title": "کارشناس فایروال",
+      "summary": "پیکربندی و مدیریت تجهیزات امنیتی لبه شبکه",
+      "description": "این مسیر بر اصول امنیت شبکه، کنترل ترافیک، سیاست‌های دسترسی و پیکربندی فایروال تمرکز دارد.",
+      "courseIds": [
+        "security",
+        "firewall",
+        "ccna-rs"
+      ]
+    },
+    {
+      "id": "pentest",
+      "title": "تحلیلگر تست نفوذ",
+      "summary": "شناسایی آسیب‌پذیری از دید مهاجم",
+      "description": "در این مسیر مبانی تست نفوذ، شناخت شبکه و مفاهیم امنیتی لازم برای شناسایی آسیب‌پذیری‌ها را دنبال می‌کنید.",
+      "courseIds": [
+        "pentest",
+        "security",
+        "comptia-netsec"
+      ]
+    },
+    {
+      "id": "network-consultant",
+      "title": "مشاور خدمات شبکه",
+      "summary": "طراحی و ارائه راهکار برای کسب‌وکارها",
+      "description": "این مسیر مهارت‌های شبکه و زیرساخت را برای تحلیل نیازهای سازمان، طراحی راهکار و ارائه خدمات تخصصی ترکیب می‌کند.",
+      "courseIds": [
+        "ccna-rs",
+        "mtcna",
+        "server",
+        "security"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "network-design",
+      "title": "طراحی شبکه",
+      "short": "طراحی شبکه",
+      "type": "server",
+      "desc": "طراحی توپولوژی، IP Plan، VLAN، Routing و زیرساخت سازمانی.",
+      "steps": [
+        "بررسی نیاز و بازدید فنی",
+        "طراحی توپولوژی و IP Plan",
+        "پیاده‌سازی و تست",
+        "تحویل مستندات فنی"
+      ],
+      "benefits": [
+        "زیرساخت پایدار و مقیاس‌پذیر",
+        "کاهش نقاط خرابی",
+        "مستندسازی کامل"
+      ],
+      "features": [
+        "طراحی VLAN و Routing",
+        "برنامه‌ریزی آدرس‌دهی IP",
+        "تست بار و پایداری"
+      ]
+    },
+    {
+      "id": "enterprise-network",
+      "title": "طراحی و راه‌اندازی شبکه‌های سازمانی + آموزش نیرو",
+      "short": "شبکه سازمانی",
+      "type": "cisco",
+      "desc": "راه‌اندازی کامل زیرساخت شبکه سازمانی همراه با آموزش تخصصی نیروی فنی مجموعه شما.",
+      "steps": [
+        "ارزیابی زیرساخت فعلی",
+        "طراحی و پیاده‌سازی",
+        "آموزش تیم فنی",
+        "پشتیبانی پس از تحویل"
+      ],
+      "benefits": [
+        "استقلال تیم فنی داخلی",
+        "کاهش وابستگی به پیمانکار خارجی",
+        "زیرساخت مطابق استاندارد"
+      ],
+      "features": [
+        "کارگاه آموزشی اختصاصی",
+        "مستندسازی کامل شبکه",
+        "پشتیبانی اولیه رایگان"
+      ]
+    },
+    {
+      "id": "network-equipment",
+      "title": "فروش تجهیزات شبکه",
+      "short": "تجهیزات شبکه",
+      "type": "mikrotik",
+      "desc": "تأمین و فروش تجهیزات شبکه از برندهای معتبر مطابق نیاز پروژه شما.",
+      "steps": [
+        "بررسی نیاز پروژه",
+        "پیشنهاد تجهیزات مناسب",
+        "تأمین و تحویل",
+        "پشتیبانی گارانتی"
+      ],
+      "benefits": [
+        "تجهیزات اورجینال و گارانتی‌دار",
+        "مشاوره فنی رایگان قبل از خرید"
+      ],
+      "features": [
+        "سوییچ و روتر",
+        "فایروال و تجهیزات امنیتی",
+        "کابل‌کشی و اکسسوری شبکه"
+      ]
+    },
+    {
+      "id": "rack-rental",
+      "title": "اجاره رک",
+      "short": "اجاره رک",
+      "type": "server",
+      "desc": "اجاره فضای رک در دیتاسنتر با پایداری برق، خنک‌سازی و امنیت فیزیکی.",
+      "steps": [
+        "بررسی نیاز فضا و توان",
+        "قرارداد و تحویل فضا",
+        "نصب تجهیزات",
+        "مانیتورینگ ۲۴ ساعته"
+      ],
+      "benefits": [
+        "برق و اینترنت پایدار",
+        "امنیت فیزیکی دیتاسنتر",
+        "دسترسی از راه دور"
+      ],
+      "features": [
+        "برق پشتیبان (UPS/دیزل)",
+        "کنترل دما و رطوبت",
+        "مانیتورینگ آنلاین"
+      ]
+    },
+    {
+      "id": "network-support",
+      "title": "پشتیبانی شبکه",
+      "short": "پشتیبانی شبکه",
+      "type": "security",
+      "desc": "پشتیبانی دوره‌ای و لحظه‌ای شبکه و زیرساخت سازمان شما توسط تیم فنی Waynet.",
+      "steps": [
+        "ارزیابی وضعیت فعلی شبکه",
+        "تعریف SLA پشتیبانی",
+        "پایش و رفع اختلال",
+        "گزارش‌دهی دوره‌ای"
+      ],
+      "benefits": [
+        "کاهش زمان از کار افتادگی",
+        "پاسخگویی سریع به حوادث",
+        "گزارش شفاف عملکرد"
+      ],
+      "features": [
+        "پشتیبانی تلفنی و حضوری",
+        "مانیتورینگ پیشگیرانه",
+        "گزارش دوره‌ای وضعیت شبکه"
+      ]
+    },
+    {
+      "id": "security-hardening",
+      "title": "امنیت زیرساخت",
+      "short": "امنیت زیرساخت",
+      "type": "firewall",
+      "desc": "سخت‌سازی، کنترل دسترسی، VPN، مانیتورینگ و پیاده‌سازی سیاست‌های امنیتی سازمانی.",
+      "steps": [
+        "ارزیابی ریسک امنیتی",
+        "سخت‌سازی تجهیزات و سرویس‌ها",
+        "پیاده‌سازی VPN و کنترل دسترسی",
+        "مانیتورینگ مستمر"
+      ],
+      "benefits": [
+        "کاهش سطح حمله",
+        "کنترل دسترسی دقیق",
+        "شفافیت در رخدادهای امنیتی"
+      ],
+      "features": [
+        "سخت‌سازی فایروال و سرور",
+        "VPN سازمانی",
+        "مانیتورینگ امنیتی"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "cisco-catalyst-2960",
+      "name": "Cisco Catalyst 2960",
+      "short": "سوییچ مدیریت‌پذیر سیسکو",
+      "type": "cisco",
+      "desc": "سوییچ شبکه مدیریت‌پذیر لایه ۲، مناسب شبکه‌های سازمانی کوچک و متوسط با پایداری بالا.",
+      "specs": [
+        "24 پورت 10/100/1000",
+        "مدیریت‌پذیر (Managed)",
+        "پشتیبانی VLAN و Trunking",
+        "گارانتی اورجینال"
+      ],
+      "price": 18500000
+    },
+    {
+      "id": "mikrotik-hex-s",
+      "name": "MikroTik hEX S",
+      "short": "روتر میکروتیک",
+      "type": "mikrotik",
+      "desc": "روتر پرکاربرد میکروتیک با پورت SFP، مناسب دفاتر کوچک و شبکه‌های خانگی حرفه‌ای.",
+      "specs": [
+        "5 پورت گیگابیت",
+        "1 پورت SFP",
+        "RouterOS کامل",
+        "مناسب فایروال و روتینگ"
+      ],
+      "price": 6200000
+    },
+    {
+      "id": "unifi-ap-ac-lite",
+      "name": "Ubiquiti UniFi AP AC Lite",
+      "short": "اکسس‌پوینت یوبیکیتی",
+      "type": "security",
+      "desc": "اکسس‌پوینت وای‌فای دوباند برای پوشش بی‌سیم سازمانی با مدیریت متمرکز.",
+      "specs": [
+        "دوباند 2.4/5GHz",
+        "تغذیه از طریق PoE",
+        "مدیریت از طریق UniFi Controller"
+      ],
+      "price": 4300000
+    },
+    {
+      "id": "patch-panel-24",
+      "name": "پچ پنل 24 پورت Cat6",
+      "short": "تجهیزات کابل‌کشی رک",
+      "type": "server",
+      "desc": "پچ پنل استاندارد رک، مناسب سازمان‌دهی کابل‌کشی ساختاریافته شبکه.",
+      "specs": [
+        "24 پورت Cat6",
+        "قابل نصب روی رک استاندارد 19 اینچ"
+      ],
+      "price": 2100000
+    }
+  ],
+  "racks": [
+    {
+      "id": "rack-a1",
+      "name": "رک A1 — نیمه رک",
+      "capacity": "20U",
+      "equipment": [
+        "یک سوییچ سیسکو",
+        "یک روتر میکروتیک",
+        "پچ پنل و کابل‌کشی آماده"
+      ],
+      "specs": [
+        "برق پشتیبان UPS",
+        "دسترسی اینترنت اختصاصی",
+        "کنترل دما و خنک‌سازی"
+      ],
+      "terms": "اجاره ماهانه یا سه‌ماهه، با امکان تمدید",
+      "duration": "حداقل یک ماه",
+      "priceNote": "قیمت بر اساس نیاز، پس از بررسی درخواست اعلام می‌شود"
+    },
+    {
+      "id": "rack-b2",
+      "name": "رک B2 — رک کامل",
+      "capacity": "42U",
+      "equipment": [
+        "فضای خالی برای تجهیزات مشتری",
+        "امکان نصب سرور و تجهیزات شبکه اختصاصی"
+      ],
+      "specs": [
+        "برق پشتیبان UPS و دیزل",
+        "دسترسی از راه دور (Remote Hands)",
+        "امنیت فیزیکی و دوربین مداربسته"
+      ],
+      "terms": "اجاره سه‌ماهه، شش‌ماهه یا سالانه",
+      "duration": "حداقل سه ماه",
+      "priceNote": "قیمت بر اساس ظرفیت و مدت اجاره متغیر است"
+    }
+  ]
+}
